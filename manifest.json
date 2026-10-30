@@ -1,6 +1,6 @@
 {
   "id": "pangu-cn",
-  "name": "中文排版 Pangu CN",
+  "name": "中文排版助手",
   "version": "1.0.0",
   "minAppVersion": "1.5.0",
   "description": "自动在中英文、中文与数字之间补空格，整理中文标点；支持粘贴时自动排版与整篇/选区/文件夹批量处理。",
