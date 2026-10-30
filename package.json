@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-pangu-cn",
+  "version": "1.0.0",
+  "description": "Obsidian 中文排版插件",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --external:obsidian --format=cjs --target=es2018 --outfile=main.js",
+    "dev": "npm run build -- --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  },
+  "license": "MIT"
+}
